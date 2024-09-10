@@ -1,0 +1,13 @@
+﻿Parameter,Name,Value,Complexity
+CODMn,PV,3,1
+W_Fe,Iron,0.3,2
+W_Mn,Manganese,0.1,2
+Cn_total,Cynide,0.05,2
+As,Arsenic,0.01,2
+Cd,Cadium,0.005,2
+F,Fluoride,1,3
+Geosmin,Geosmin,0.00001,3
+2_MIB,2-MIB,0.00001,3
+NO3_n,Nitrate,10,4
+Cl,Chloride,250,4
+SO4,Sulfate,250,4

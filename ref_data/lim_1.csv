@@ -1,0 +1,7 @@
+﻿Parameter,Name,Value,reduction rate
+Turbid,Turbidity,1,
+W_Fe,Iron,0.3,0.1
+W_Mn,Manganese,0.1,0.15
+F,Fluoride,1,0.7
+As,Arsenic,0.01,0.6
+Cd,Cadium,0.005,0.3
