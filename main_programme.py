@@ -2,7 +2,11 @@
 """
 Created on Mon Nov  6 17:13:49 2023
 
-@author: ZhangXY
+@author: Xiaoyu Zhang, rong he, jiping jiang
+@Instituion: sustech.
+Reference：jiang, Zhang, ........
+contact:XXx ;jjp_lab@sina.com
+@copy non-common 
 """
 
 # =============================================================================
