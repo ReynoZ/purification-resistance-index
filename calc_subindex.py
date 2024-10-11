@@ -2,7 +2,11 @@
 """
 Created on Fri Nov  3 15:37:12 2023
 
-@author: ZhangXY
+@author: Xiaoyu Zhang, Rong He, Jiping Jiang
+@Instituion: Sustech, Shenzhen, Guangdong Province, China
+Reference：Jiping Jiang, Xiaoyu Zhang, Gang Wen, Minye Zhu, Yi Zheng, 2024. Purification Resistance.Index:a new water quality assessment method toward drinking water production. Water Research 267, 122555.
+contact: timarz@163.com; jjp_lab@sina.com
+@license GNU
 """
 # =============================================================================
 # This file contains code to calculate each sub-index.
