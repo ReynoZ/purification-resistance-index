@@ -29,9 +29,10 @@ def data_input(input_path=r'Input\demo.csv'):
     # Read in the data and select specific paras and delete the empty rows
 
     df = pd.read_csv(input_path, encoding='gbk')
+    df = df.dropna(how='all', axis=0)
     col_names = ['Sites', 'Date', 'W_temp', 'pH', 'CODMn', 'NH4-N', 'F', 'As', 'Cd',
                  'Cn_total', 'V_phen', 'Oils', 'An_SAA', 'Colo_org', 'SO4', 'Cl',
-                 'NO3_n', 'W_Fe', 'W_Mn', 'Transp', 'Chl_a']
+                 'NO3_n', 'W_Fe', 'W_Mn', 'Turbid', 'Transp', 'Chl_a']
     df.columns = col_names
 
     # Apply the function to specific columns (e.g., only numeric columns)
@@ -45,7 +46,9 @@ def data_input(input_path=r'Input\demo.csv'):
     df = df.replace(-1, np.nan)
 
     # Convert Transp (cm) to Turbidity (NTU)
-    df['Turbid'] = 4686 * df['Transp'] ** (-1.532)
+    is_all_null = df['Turbid'].isnull().all()
+    if is_all_null:
+        df['Turbid'] = 4686 * df['Transp'] ** (-1.532)
 
     # Create a 'Warning' column with an initial value of 'Pass'
     df['Warning'] = 'Pass'
