@@ -2,11 +2,11 @@
 """
 Created on Mon Nov  6 17:13:49 2023
 
-@author: Xiaoyu Zhang, rong he, jiping jiang
-@Instituion: sustech.
-Reference：jiang, Zhang, ........
-contact:XXx ;jjp_lab@sina.com
-@copy non-common 
+@author: Xiaoyu Zhang, Rong He, Jiping Jiang
+@Instituion: Sustech, Shenzhen, Guangdong Province, China
+Reference：Jiping Jiang, Xiaoyu Zhang, Gang Wen, Minye Zhu, Yi Zheng, 2024. Purification Resistance.Index:a new water quality assessment method toward drinking water production. Water Research 267, 122555.
+contact: timarz@163.com; jjp_lab@sina.com
+@license GNU
 """
 
 # =============================================================================
